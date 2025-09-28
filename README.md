@@ -52,3 +52,12 @@ Upon Acceptance -> Codebase Liberation Activated 🔓
 
 Upon Acceptance -> Codebase Liberation Activated 🔓
 
+### 5. Citation
+```bash
+@article{li2025bridging,
+  title={Bridging Semantic Logic Gaps: A Cognition-Inspired Multimodal Boundary-Preserving Network for Image Manipulation Localization},
+  author={Li, Songlin and Guo, Zhiqing and Li, Yuanman and Li, Zeyu and Diao, Yunfeng and Yang, Gaobo and Wang, Liejun},
+  journal={arXiv preprint arXiv:2508.07216},
+  year={2025}
+}
+```
