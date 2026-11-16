@@ -34,34 +34,15 @@ For training and inference, provide a local directory containing the BERT model 
 ### 3. Train the Net
 
 ```bash
-python etrain.py \
-  --train_root /path/to/IML-DS/train \
-  --text_dir Text \
-  --bert_path /path/to/bert-base-uncased \
-  --pvt_checkpoint /path/to/pvt_v2_b2.pth \
-  --trainsize 416 \
-  --batchsize 32 \
-  --gpu_id 0,1 \
-  --save_path training_output
+python etrain.py
 ```
-
-With the default settings, training saves checkpoints from epoch 50 through epoch 59 in `training_output/`.
 
 ### 4. Run Inference and Evaluate
 
 Generate predicted masks for the four test datasets. Replace `--pth_path` with the checkpoint you want to evaluate.
 
 ```bash
-python etest.py \
-  --test_root /path/to/IML-DS/test \
-  --text_dir Text \
-  --bert_path /path/to/bert-base-uncased \
-  --pvt_checkpoint /path/to/pvt_v2_b2.pth \
-  --pth_path training_output/Net_epoch_59.pth \
-  --testsize 416 \
-  --gpu_id 0 \
-  --datasets C1 Coverage Columbia NC16 \
-  --save_path result
+python etest.py 
 ```
 
 Inference saves masks under `result/<dataset>/`. Evaluate the predictions against the ground-truth masks to report AUC, F1, and IoU. The evaluation script writes the results to `result/Eval_log.txt`.
