@@ -57,10 +57,11 @@ python eval_mult.py \
 ### 5. Citation
 
 ```bibtex
-@article{li2025bridging,
-  title={Bridging Semantic Logic Gaps: A Cognition Inspired Multimodal Boundary Preserving Network for Image Manipulation Localization},
+@article{li2026bridging,
+  title={Bridging semantic logic gaps: A cognition inspired multimodal boundary preserving network for image manipulation localization},
   author={Li, Songlin and Guo, Zhiqing and Li, Yuanman and Li, Zeyu and Diao, Yunfeng and Yang, Gaobo and Wang, Liejun},
-  journal={arXiv preprint arXiv:2508.07216},
-  year={2025}
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2026},
+  publisher={IEEE}
 }
 ```
