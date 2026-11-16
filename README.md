@@ -29,14 +29,6 @@ conda env create -f CMB-Net.yaml
 
 
 ### 2. Prepare Datasets
-| Dataset     | Nums        |  #CM          | #SP          | #IP          |  #Train          |  #Test          | 
-| :----:      |    :----:   |         :----:|:----:        |    :----:    |         :----:   |         :----:  |
-| CASIAv2.0   | 5123        | 3295          |1828          |    0         |        5123      |        0        |
-| CASIAv1.0   | 920         | 459           |461           |    0         |        0         |        920      |
-| Coverage    | 100         | 100           |0             |    0         |        70        |        30       |
-| Columbia    | 180         | 0             |180           |    0         |         130      |        50       |
-| NIST16      | 564         | 68            |288           |    208       |        414       |        150      |
-
 
 - CASIAv2.0 [Download](https://github.com/SunnyHaze/IML-Dataset-Corrections)
 - CASIAv1.0 [Download](https://github.com/SunnyHaze/IML-Dataset-Corrections)
