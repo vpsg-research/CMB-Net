@@ -54,7 +54,13 @@ python eval_mult.py \
   --datasets C1 Coverage Columbia NC16
 ```
 
-### 5. Citation
+### 5. Experimental Results
+
+The experimental results (`tifs-result`) are available on [Baidu Netdisk](https://pan.baidu.com/s/1CXiybOS7SnflHwqcFD4cSA?pwd=2vuz).
+
+**Extraction code:** `2vuz`
+
+### 6. Citation
 
 ```bibtex
 @article{li2026bridging,
