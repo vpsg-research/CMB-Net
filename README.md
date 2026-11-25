@@ -56,7 +56,7 @@ python eval_mult.py \
 
 ### 5. Experimental Results
 
-The experimental results (`tifs-result`) are available on [Baidu Netdisk](https://pan.baidu.com/s/1CXiybOS7SnflHwqcFD4cSA?pwd=2vuz).
+The experimental results are available on [Baidu Netdisk](https://pan.baidu.com/s/1CXiybOS7SnflHwqcFD4cSA?pwd=2vuz).
 
 **Extraction code:** `2vuz`
 
